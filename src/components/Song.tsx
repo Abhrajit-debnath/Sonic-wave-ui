@@ -63,13 +63,13 @@ const Song = () => {
             Now Playing
           </p>
 
-          <h2 className="text-2xl font-semibold text-white mt-1">
+          <h2 className="text-2xl font-semibold text-white mt-1 font-[poppins]">
             {currentSong.title}
           </h2>
 
-          <h4 className="text-sm text-gray-300 italic">{currentSong.author}</h4>
+          <h4 className="text-sm text-gray-300 font-[nunito] italic">{currentSong.author}</h4>
 
-          <p className="text-sm mt-1 text-gray-400 italic">{currentSongDuration}</p>
+          <p className="text-sm mt-1 text-gray-400 font-[nunito] italic">{currentSongDuration}</p>
 
           {/* Progress bar (dummy) */}
           {/* <div className="w-52 mt-4 h-1 bg-white/10 rounded-full overflow-hidden">
