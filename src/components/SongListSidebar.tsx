@@ -11,7 +11,7 @@ const SongListSidebar = () => {
     <div className="rounded-lg w-full p-5 h-[470px] flex flex-col custom-scrollbar border-white/10 border">
      
      
-      <h2 className="font-[poppins] text-xl font-semibold">My Playlist</h2>
+      <h2 className="font-[poppins] text-xl font-semibold text-white">My Playlist</h2>
 
     
       <div className="mt-4 overflow-y-auto flex-1 pr-1.5">

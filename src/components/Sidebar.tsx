@@ -17,7 +17,7 @@ const Sidebar = ({ setSidebarOpen, sidebar }: SonglistProps) => {
           damping: 25,
          
         }}
-        className="font-[poppins] text-xl font-semibold"
+        className="font-[poppins] text-xl font-semibold text-white"
       >
         My Playlist
       </motion.h2>
