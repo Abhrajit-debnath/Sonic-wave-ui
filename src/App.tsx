@@ -15,7 +15,7 @@ const App = () => {
       <div className="w-[90%] mx-auto">
         <div className="flex flex-col justify-center space-y-6 h-screen">
           <header className="flex">
-            <motion.h1 className="fixed top-5 left-8 font-bold font-[poppins] text-xl lg:text-2xl">
+            <motion.h1 className="fixed top-5 left-8 font-bold font-[poppins] text-xl lg:text-2xl text-white">
               Sonic <span className="text-[#9A6DF0]">Wave UI</span>
             </motion.h1>
             <div
@@ -26,7 +26,7 @@ const App = () => {
                 setSidebarOpen(!sidebar);
               }}
             >
-              <RxHamburgerMenu className="text-2xl cursor-pointer" />
+              <RxHamburgerMenu className="text-2xl cursor-pointer text-white" />
             </div>
           </header>
 

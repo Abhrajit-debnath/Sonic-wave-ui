@@ -39,7 +39,7 @@ const Controls = () => {
           className="bg-linear-to-r from-[#6342E8] to-[#593EC5] rounded-full p-2 cursor-pointer"
           onClick={prev}
         >
-          <GrFormPrevious className="text-lg" />
+          <GrFormPrevious className="text-lg text-white" />
         </button>
       </motion.div>
 
@@ -55,9 +55,9 @@ const Controls = () => {
           onClick={togglePlay}
         >
           {isPlaying ? (
-            <FaPause className="text-2xl" />
+            <FaPause className="text-2xl text-white" />
           ) : (
-            <FaPlay className="text-2xl" />
+            <FaPlay className="text-2xl text-white" />
           )}
         </button>
       </motion.div>
@@ -73,7 +73,7 @@ const Controls = () => {
           className="bg-linear-to-r from-[#6342E8] to-[#593EC5] rounded-full p-2 cursor-pointer"
           onClick={next}
         >
-          <MdNavigateNext className="text-lg" />
+          <MdNavigateNext className="text-lg text-white" />
         </button>
       </motion.div>
     </motion.div>
