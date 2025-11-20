@@ -11,7 +11,7 @@ type SongcardProps = {
 const Songcard = ({ authorName, SongTitle, isPlayingNow,SongSrc }: SongcardProps) => {
     const isPlaying = useAudioStore((state) => state.isPlaying);
   return (
-   <div className="border-2 border-purple-50 p-3 rounded-xl w-full hover:bg-purple-50/10 transition">
+   <div className="border-2 border-purple-300 p-3 rounded-xl w-full hover:bg-purple-50/10 transition">
       <div className="flex items-center gap-4">
 
         {/* Image */}
@@ -39,7 +39,7 @@ const Songcard = ({ authorName, SongTitle, isPlayingNow,SongSrc }: SongcardProps
             {isPlayingNow ? "Now Playing" : ""}
           </h1>
 
-          <h3 className="font-[poppins] text-sm font-semibold truncate py-1">
+          <h3 className="font-[poppins] text-sm font-semibold truncate py-1 text-white">
             {SongTitle}
           </h3>
 

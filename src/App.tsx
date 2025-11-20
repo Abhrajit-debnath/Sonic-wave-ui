@@ -44,7 +44,7 @@ const App = () => {
               className="fixed right-5 top-5"
               onClick={() => setSidebarOpen(false)}
             >
-              <IoClose className="text-2xl" />
+              <IoClose className="text-2xl text-white" />
             </div>
 
             <Sidebar sidebar={sidebar} setSidebarOpen={setSidebarOpen} />
